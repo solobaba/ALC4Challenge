@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ALC4Challenge</string>
+    <string name="about_alc">ABOUT ALC</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="name">SOLOMON ODUNIYI</string>
+    <string name="track">Track:</string>
+    <string name="android">Android</string>
+    <string name="country">Country:</string>
+    <string name="nigeria">Nigeria</string>
+    <string name="email">Email:</string>
+    <string name="email1">solomon.oduniyi@gmail.com</string>
+    <string name="phone_no">Phone number:</string>
+    <string name="phone_noo">+2347034527688</string>
+    <string name="slack_username">Slack Username:</string>
+    <string name="slack_username1">solomonoduniyi</string>
+</resources>
