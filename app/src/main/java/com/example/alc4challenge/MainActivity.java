@@ -33,19 +33,6 @@ public class MainActivity extends AppCompatActivity {
         mAlc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(getApplicationContext(), AboutALC.class);
-//
-//                switch(view.getId())
-//                {
-//                    case R.id.action_bar:
-//                        intent.putExtra("url", "http://techcrunch.com/tag/rss/");
-//                        startActivity(intent);
-//                        break;
-//
-//                    default:
-//                        break;
-//                }
-
                 goToAlcAbout();
             }
         });
@@ -53,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void goToAlcAbout() {
         startActivity( new Intent(MainActivity.this, AboutALC.class));
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://andela.com/alc/"));
-        startActivity(browserIntent);
+//        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://andela.com/alc/"));
+//        startActivity(browserIntent);
     }
 
     private void goToMyProfile() {
